@@ -1,0 +1,28 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aquamarine;
+    overflow: hidden;
+    
+    
+}
+
+.btn{
+
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: rgb(12, 70, 50);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+.btn:focus{
+transform: scale(0.98);
+
+}
